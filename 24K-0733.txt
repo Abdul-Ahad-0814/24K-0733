@@ -1,0 +1,114 @@
+                                                                
+                                                                 PSEUDO CODE
+A       Find if the number is multiple of 5.
+
+1.	 Start
+2.	Input number 1 
+3.	 Remainder set to 0
+4.	 Remainder = number1%5 
+5.	 if Remainder=0 THEN
+6.	 PRINT “Given Number is multiple of 5”
+7.	 ELSE 
+8.	 PRINT “The Number is NOT the multiple of 5 “
+
+B. Check if a character is uppercase or lowercase.
+
+
+1.	 Start 
+2.	 Input a character 
+3.	 If Character >= A and Character <= Z
+4.	 PRINT “ The given Character is Uppercase”
+5.	 Else Character >= a and character <= z 
+6.	Print “The Character is Lower case”
+7.	END
+
+
+C. Create a small calculator which only does ‘+’ or ‘*‘Operations. (Hint: Take three variable inputs
+     with one being used for the operator)
+
+
+1.	Start
+2.	Input Number1
+3.	Input Number2
+4.	Numb 3  set to 0
+5.	Click “+” for Addition
+6.	Click “*” for multiplication
+7.	If + then
+8.	Numb 3 = Number 1 + Number 2
+9.	Print “The Numb 3  is”
+10.	Else “*” then
+11.	Numb 3 = Numb1 * Numb2
+12.	Print “The Numb 3 is ”
+13.	End
+
+
+
+D. Check whether a given number is positive, negative,     or zero.
+
+
+1.	Start 
+2.	Input Numb 1 
+3.	If numb1>0
+4.	Print “The Number is positive”
+5.	Else if numb 1=0
+6.	Print “The Number is Negative”
+7.	Else Numb 1<0
+8.	Print “The Number is negative”
+9.	End 
+
+E. Determine if a person is a teenager (between 13   and    19 years old)
+
+
+1.	Start 
+2.	Input Age 
+3.	If age>13 and age<19
+4.	Print “The person is teenager”
+5.	Else 
+6.	Print “The person is not a teenager”
+7.	End 
+
+
+
+
+                                                                     ALGORITHM
+
+A.  Implement an algorithm to determine if a given year is   a leap year. A leap year is divisible by 4, but not divisible by 100, except if it is also divisible by 400.
+
+1.	Ask the user to enter year 
+2.	Read the condition 
+3.	Condition: year%4=0 and year%100≠0 or year%400=0
+4.	Print  “It is the leap year” 
+5.	Else 
+6.	Print “It is not a leap year”
+
+B. Implement an algorithm to count the number of   occurrence of each character in a given  string.
+
+1.	Ask the user to enter the alphabet of string
+2.	Store in variable occurrence 
+3.	Built-in-function: occurrence= string. count(alphabet)
+4.	 Print the occurrence 
+5.	 Repeat the same occurrence for every step
+
+C. Write an algorithm to calculate x raised to the  power y (i.e., x y ) without using built-in
+power functions.
+
+1.	Ask user to input Number X and power y 
+2.	Run For Loop from 1 till Y 
+3.	Inside the loop, Run the program Result=Result*X
+4.	Print the value of X outside the loop 
+
+
+D.	Calculate the area of a circle given its radius r
+
+1.	Radius r 
+2.	 Set Area to (3.14*r*r)
+3.	Display Area for the user
+
+
+E.	Find the median of three given numbers.
+
+1.	 Initialize three numbers as X1, X2, X3
+2.	If X2>X1 and  X2<X3 then X2 is the median 
+3.	 If X1>X2 and X1<X3 then X1 is the median 
+4.	 Else X3 is the median  
+5.	Display Median
